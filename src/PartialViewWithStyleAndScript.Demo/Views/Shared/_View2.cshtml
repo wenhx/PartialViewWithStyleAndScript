@@ -1,0 +1,10 @@
+﻿
+<span id="view2span" style="border: solid 2px;"></span>
+
+@Html.RegisterScriptFiles("~/bundles/view2")
+@using (this.BeginScriptBlock())
+{
+    <script>
+        $("#view2span").text(view2);
+    </script>
+}

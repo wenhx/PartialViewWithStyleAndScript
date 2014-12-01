@@ -1,0 +1,18 @@
+﻿
+<span id="view1span"></span>
+
+@functions{
+    protected override void InitializePage()
+    {
+ 	     base.InitializePage();
+         this.Html.RegisterStyleFiles("~/Content/css/View1");
+    }
+}
+
+@Html.RegisterScriptFiles("~/bundles/view1")
+@using (this.BeginScriptBlock())
+{ 
+    <script>
+        $("#view1span").text(view1);
+    </script>
+}

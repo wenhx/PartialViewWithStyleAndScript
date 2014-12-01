@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialViewWithStyleAndScript.Core", "PartialViewWithStyleAndScript.Core\PartialViewWithStyleAndScript.Core.csproj", "{F13F59D2-5938-4028-B331-E6C706055DB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialViewWithStyleAndScript.Demo", "PartialViewWithStyleAndScript.Demo\PartialViewWithStyleAndScript.Demo.csproj", "{98651B61-D5B1-4FD3-8A70-4BC9B2A4D3A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F13F59D2-5938-4028-B331-E6C706055DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13F59D2-5938-4028-B331-E6C706055DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13F59D2-5938-4028-B331-E6C706055DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13F59D2-5938-4028-B331-E6C706055DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98651B61-D5B1-4FD3-8A70-4BC9B2A4D3A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98651B61-D5B1-4FD3-8A70-4BC9B2A4D3A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98651B61-D5B1-4FD3-8A70-4BC9B2A4D3A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98651B61-D5B1-4FD3-8A70-4BC9B2A4D3A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

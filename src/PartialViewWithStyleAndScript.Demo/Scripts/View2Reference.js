@@ -1,0 +1,1 @@
+﻿var view2 = "This come from view 2.";
